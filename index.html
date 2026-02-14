@@ -394,76 +394,7 @@ i {
     margin: 10px;
     color: #821990;
 }
-    /* =========================
-   MOBILE VIEW (Phones)
-   ========================= */
-/* --- GLOBAL STYLES (Laptop/Desktop View) --- */
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 50px;
-    background: #fff; /* adjust as needed */
-}
-
-/* Container for sections to prevent text hitting edges */
-section {
-    padding: 50px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-/* The About/Project split layout */
-.parent1, .parent2, .parent3 {
-    display: flex;
-    gap: 40px;
-}
-
-.div2, .div3, .div4 {
-    flex: 1; /* Sidebar area */
-}
-
-.about-text, .projects-card, .contact-card {
-    flex: 2; /* Content area */
-}
-
-/* --- MEDIA QUERY: TABLETS & PHONES --- */
-@media screen and (max-width: 768px) {
-    /* 1. Stack the navbar links vertically */
-    .nav-links {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        text-align: center;
-    }
-
-    /* 2. Make columns stack on top of each other */
-    .parent1, .parent2, .parent3 {
-        flex-direction: column;
-        padding: 10px;
-    }
-
-    /* 3. Remove heavy margins used for desktop */
-    h1, li, .div2, .skill-item {
-        margin-left: 0 !important;
-        text-align: center;
-    }
-
-    /* 4. Make images responsive */
-    img {
-        width: 100% !important;
-        height: auto;
-    }
-
-    /* 5. Adjust Font Sizes for readability */
-    h1 {
-        font-size: 28px !important;
-    }
-}
 
 
 
@@ -804,4 +735,5 @@ This project focuses on developing an intelligent system that recommends eco-fri
 </body>
 
 </html>
+
 
