@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>maha portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+</head>
+<style>
+    body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    }
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #80258d;
+}
+
+.logo {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    margin-left: 25px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #00bcd4;
+} 
+ .a{
+    width: 400px;
+    margin-right: 100px;
+    margin-top: 150px;
+    float: right;
+    
+    
+    
+
+ } 
+ .a img{
+    width: 400px;
+    height: 400;
+    border-radius: 100%;
+    border: 2px solid #821990;
+    
+    
+ }
+
+ .b1{
+    margin-top: -150px;
+    margin-left: 40px;
+     width: 800px;
+     text-shadow: white 2px 2px 4px;
+ }
+ .b2{
+    margin-left: 40px;
+     width: 800px;
+     margin-top: 20px;
+     font-style: tahoma;
+      text-shadow: white 2px 2px 4px;
+ }
+
+
+.c {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+        
+        margin-top: 100px;
+}
+
+.c1 {
+    color: rgb(247, 242, 247);
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 8px;
+    border: 2px solid #821990;
+    text-align: center;
+
+
+}
+    
+.div1 {
+    grid-column: span 5 / span 5;
+
+}
+/* ABOUT SECTION */
+.about-section {
+    padding: 10px;
+    
+   
+    
+}
+
+/* Heading */
+.about-heading {
+    background-color: #821990;
+    
+    text-align: center;
+    border-top: 2px solid #551662;
+    border-bottom: 2px solid #821990;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+/* Flex Layout */
+.parent1 {
+    display: flex;
+    align-items: flex-start;
+}
+
+/* LEFT MENU */
+.div2 {
+    width: 25%;
+    border-right: 2px solid #821990;
+    padding-right: 40px;
+
+}
+
+.div2 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.div2 li {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.div2 .active {
+    color: aliceblue;
+    font-weight: bold;
+}
+.education-card {
+    border: 2px solid #500e4a;
+    width: fit-content;
+    margin-top: 40px;
+    background: white;
+    padding: 10px;
+    margin-left: 100px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(87, 5, 90, 0.922);
+
+}
+
+.education-card h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.edu-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 25px;
+    gap: 20px;
+}
+
+.year {
+    background: #821990;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.edu-item h3 {
+    margin: 0;
+}
+
+.edu-item p {
+    margin: 4px 0;
+    color: #555;
+}
+.education-card:hover {
+    box-shadow: 0 15px 40px rgba(87, 5, 90, 0.922);
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+
+/* RIGHT TEXT */
+.about-text {
+    width: 40%;
+    padding-right: 25px;
+    padding-left: 75px;
+    text-align: center;
+    line-height: 1.6;
+    text-align: justify;
+    margin-right: 100px;
+
+}
+.skill-card {
+    border: 2px solid #500e4a;
+    text-align: center;
+    margin-left: 650px;
+    margin-top: -400px;
+     width: 200px;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(87, 5, 90, 0.922);
+
+}
+
+.skills-card h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.skill-item {
+   
+    align-items: flex-start;
+    margin-bottom: 25px;
+    gap: 20px;
+    text-align: center;
+}
+
+.skills {
+    background: #821990;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+.skill-item p {
+    margin: 4px 0;
+    color: #555;
+    text-align: center;
+}
+.skill-card:hover {
+    box-shadow: 0 15px 40px rgba(87, 5, 90, 0.922);
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+.projects-section {
+    padding: 10px;
+   
+    
+}
+
+/* Heading */
+.projects-heading {
+     background-color: #821990;
+    text-align: center;
+    border-top: 2px solid #821990;
+    border-bottom: 2px solid #821990;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+.parent2 {
+    display: flex;
+    align-items: flex-start;
+}
+
+/* LEFT MENU */
+.div3{
+    width: 25%;
+    border-right: 2px solid #821990;
+    padding-right: 40px;
+
+}
+
+.div3 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.div3li {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.div3 .active1 {
+    color: aliceblue;
+    font-weight: bold;
+}
+.projects-section {
+    padding: 10px;
+   
+    
+}
+.projects-card {
+    text-align: center;
+    margin-left: 550px;
+box-shadow: #741f74 2px 10px 30px;
+     width: 600px;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    border: 2px solid #500e4a;
+    box-shadow: 0 10px 30px rgba(78, 4, 81, 0.922);
+    margin-top: -400px;
+
+}
+
+.projects-card h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.projects-card:hover {
+    box-shadow: 0 15px 40px rgba(87, 5, 90, 0.922);
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+.contact-heading {
+     background-color: #821990;
+    text-align: center;
+    border-top: 2px solid #821990;
+    border-bottom: 2px solid #821990;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+.parent3{
+    display: flex;
+    align-items: flex-start;
+}
+
+/* LEFT MENU */
+.div4{
+    width: 25%;
+    border-right: 2px solid #821990;
+    padding-right: 40px;
+
+}
+
+.div4 {
+    list-style: none;
+    padding: 0;
+}
+
+.div4 {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.div4 .active2 {
+    color: aliceblue;
+    font-weight: bold;
+}
+.contact-section {
+    padding: 10px;
+}
+    .contact-card:hover {
+    box-shadow: 0 15px 40px rgba(87, 5, 90, 0.922);
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+   
+    
+
+.contact-card {
+    text-align: center;
+    margin-left: 450px;
+box-shadow: #741f74 2px 10px 30px;
+     width: 600px;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    border: 2px solid #500e4a;
+    box-shadow: 0 10px 30px rgba(78, 4, 81, 0.922);
+    margin-top: -400px;
+
+}
+
+.contact-card h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    text-align: center;
+}
+i {
+    font-size: 25px;
+    margin: 10px;
+    color: #821990;
+}
+
+
+
+
+
+        
+        
+
+
+
+        
+
+
+
+</style>
+<body style="background-color: rgb(224, 140, 217) ">
+    
+<nav class="navbar">
+    <div class="logo">Mahalaxmi</div>
+
+    <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
+
+<div class="a">
+    <section id="home">
+    <img src="n.jpg.jpeg" alt="" width="250px">
+    </section>
+</div>
+
+
+<div  class="b">
+    <section id="home">
+    <h1 class="b1" style="color: #741f74; font-size: 40px; margin-top: 110px; margin-left: 100px;"> HEY!
+        <br> 
+        I'AM MAHALAXMI</h1>
+    <h3 class="b2" style="color: #4f1157; font-size: 23px; margin-top: 40px; margin-left: 120px; ">  I am Ananthu Mahalaxmi, 
+        a  B.Tech AIML student passionate about Data Science and Front-End Development, focused on building intelligent, user-friendly solutions.</h3>
+        </section>
+</div>
+<section id="home">
+
+<button style="background-color: #80258d ; border-radius: 60px; padding: 10px 20px; margin-left: 120px; margin-top: 60px; font-size: 20px ; color: azure;">
+    <a href="resume.pdf" download style="color: rgb(244, 247, 247); text-decoration: none;">Download Resume</a></button>
+</section>
+<br>
+<br>
+<br>
+<br>
+<br>
+<section id="about">
+<section class="about-section">
+
+    <h1 class="about-heading">ABOUT ME</h1>
+
+    <div class="parent1">
+
+        <!-- LEFT MENU -->
+        <div class="div2">
+            <ul>
+                <li type="circle" style="margin-left: 100px;">HOME</li>
+                <br>
+                <br>
+                   <br>
+                <br>
+                   <br>
+                <br>
+                   <br>
+                <br>
+
+
+
+                <li type="circle" class="active" style="color: aliceblue; margin-left: 100px;">ABOUT</li>
+                <br>
+                <br>
+                   <br>
+                <br>
+                   <br>
+                <br>
+                   <br>
+                <br>
+                
+
+
+
+                <li type="circle" style="margin-left: 100px;">PROJECTS</li>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                   <br>
+                <br>
+
+
+
+                <li  type="circle" style="margin-left: 100px;">CONTACT</li>
+                   <br>
+                <br>
+            </ul>
+        </div>
+
+        <!-- RIGHT CONTENT -->
+        <div class="about-text">
+            <p>
+                I am Ananthu Mahalaxmi, a B.Tech student in Artificial Intelligence 
+                & Machine Learning with a strong interest in Data Science and 
+                Front-End Development. I am passionate about applying AI and 
+                data-driven approaches to build intelligent, user-focused 
+                solutions while continuously enhancing my technical skills.
+            </p>
+            <div class="education-card">
+
+    <h2>Education</h2>
+
+    <div class="edu-item">
+        <span class="year">2026</span>
+        <div>
+            <h3>Bachelor of Science (artificial intelligence and machine learining)</h3>
+            <p>Bharat institute of engineering and technology</p>
+            <p>Hyderabad, India</p>
+        </div>
+    </div>
+
+    <div class="edu-item">
+        <span class="year">2022</span>
+        <div>
+            <h3>Intermediate</h3>
+            <p>Aavishkar junior college</p>
+            <p>Hyderabad, India</p>
+        </div>
+    </div>
+
+    <div class="edu-item">
+        <span class="year">2020</span>
+        <div>
+            <h3>Class 10th</h3>
+            <p>krishnavani talent High School</p>
+            <p>neducherla, India</p>
+        </div>
+    </div>
+
+
+
+</div>
+    <div class="skill-card">
+
+    <h2>Skills</h2>
+   
+
+    <div class="skill-item">
+        <span class="skills">SQL</span>
+       
+    </div>
+
+    <div class="skill-item">
+        <span class="skills">HTML</span>
+       
+    </div>
+
+    <div class="skill-item">
+        <span class="skills">CSS</span>
+        
+    </div>
+    <div class="skill-item">
+        <span class="skills">pandas</span>
+        
+    </div>
+    <div class="skill-item">
+        <span class="skills">numpy</span>
+        
+    </div>
+   
+
+</div>
+            
+
+
+            
+        </div>
+       
+
+    </div>
+
+</section>
+</section>
+<section id="projects">
+
+<section class="projects-section">
+
+    <h1 class="projects-heading">PROJECTS</h1>
+    <div class="parent2"></div>
+     
+
+         <div class="div3">
+            <ul>
+                <li type="circle" style="margin-left: 100px;">HOME</li>
+                <br>
+                <br>
+                   <br>
+                <br>
+                   <br>
+                <br>
+                   <br>
+                <br>
+
+
+
+                <li type="circle" class="active1" style="color:rgb(79, 74, 74); margin-left: 100px;">ABOUT</li>
+                <br>
+                <br>
+                   <br>
+                <br>
+                   <br>
+                <br>
+                   <br>
+                <br>
+                
+
+
+
+                <li type="circle" class="active1" style=" color: aliceblue; margin-left: 100px;">PROJECTS</li>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                   <br>
+                <br>
+
+
+
+                <li  type="circle" style="margin-left: 100px;">CONTACT</li>
+                   <br>
+                <br>
+            </ul>
+        </div>
+     <div class="projects-card">
+
+    <h2>project</h2>
+    <h3>AI-Based Organic Pesticide Recommendation System</h3>
+    <p>
+
+This project focuses on developing an intelligent system that recommends eco-friendly and organic pesticides using Artificial Intelligence and Machine Learning techniques. The system analyzes crop images and disease patterns to identify pest infections and suggest suitable organic treatment methods. By promoting sustainable farming practices, the solution helps reduce chemical pesticide usage, improves crop health, and supports environmentally friendly agriculture. The project integrates deep learning models for accurate pest detection and provides farmers with easy and reliable recommendations.</p>
+
+</div>
+</section>
+<section id="contact">
+<section class="contact-section">
+
+    <h1 class="contact-heading">CONTACT</h1>
+     <div class="parent3"></div>
+     
+
+         <div class="div4">
+            <ul>
+                <li type="circle" style="margin-left: 100px;">HOME</li>
+                <br>
+                <br>
+                   <br>
+                <br>
+                   <br>
+                <br>
+                   <br>
+                <br>
+
+
+
+                <li type="circle" class="active2" style=" color:rgb(79, 74, 74); margin-left: 100px;">ABOUT</li>
+                <br>
+                <br>
+                   <br>
+                <br>
+                   <br>
+                <br>
+                   <br>
+                <br>
+                
+
+
+
+                <li type="circle" class="active1" style="  margin-left: 100px;">PROJECTS</li>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                   <br>
+                <br>
+
+
+
+                <li  type="circle" class="active2" style=" color: aliceblue; margin-left: 100px;">CONTACT</li>
+                   <br>
+                <br>
+            </ul>
+        </div>
+     <div class="contact-card">
+
+    <h2>Get in Touch</h2>
+    <a href="tel:+91 9398858523">
+    <i class="fa-solid fa-phone"></i>
+    
+    </i>
+    <a href="mailto:mahalaxmiananthu@gmail.com">
+        <i class="fa-solid fa-envelope"></i>
+
+    </a>
+
+
+</i>
+<a href="https://www.linkedin.com/in/ananthu-mahalaxmi-293639277?utm_source=share_via&utm_content=profile&utm_medium=member_android">
+<i class="fa-brands fa-linkedin"></i>
+</a>
+<a href="https://github.com/mahalaxmi61">
+<i class="fa-brands fa-github"></i>
+</a>
+    </section>
+    
+
+        
+
+   
+    
+</div>
+
+
+</body>
+
+</body>
+</html>
